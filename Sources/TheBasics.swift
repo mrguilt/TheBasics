@@ -21,3 +21,16 @@ let biys="""
     """
 print(biys)
 print("----------")
+print("Lets name cats!")
+var cats=["Maggie","Eddy","Beso","Luna","Nami"]
+print("The element of the array with an index of \"1\" is \(cats[1]).")
+print("OK. The index of the first element is \"0\". Like this: \(cats[0]).")
+print("Loop it! I didn't find the initial thing. I was looking for, but let's play anyway!")
+for kitty in cats {
+    print("\t\(kitty)")
+}
+print("Let's give Nami his full name.")
+cats[4]="Tsunami"
+for kitty in cats {
+    print("\t\(kitty)")
+}
