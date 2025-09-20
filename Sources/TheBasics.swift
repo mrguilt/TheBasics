@@ -10,7 +10,7 @@ Name="Charles"
 print("and hello, \(Name)!\nDo standard escape codes work?")
 print("2+2=\(2+2)")
 print("\n----------")
-//Cool multi-line string assignment
+//Cool multi-line string assignment. Doing some TMBG lyrics, that popped up on Threads this morning
 let biys="""
     Blue canary in the outlet by the nightstand
     Who watches over you?
@@ -25,12 +25,24 @@ print("Lets name cats!")
 var cats=["Maggie","Eddy","Beso","Luna","Nami"]
 print("The element of the array with an index of \"1\" is \(cats[1]).")
 print("OK. The index of the first element is \"0\". Like this: \(cats[0]).")
-print("Loop it! I didn't find the initial thing. I was looking for, but let's play anyway!")
+print("Loop it! I didn't find the initial thing I was looking for (array length), but let's play anyway!")
 for kitty in cats {
     print("\t\(kitty)")
 }
 print("Let's give Nami his full name.")
 cats[4]="Tsunami"
+for kitty in cats {
+    print("\t\(kitty)")
+}
+print("Found the length. It's arrayname.count! For cats: \(cats.count)")
+print("I'm going to add two cats. First, just assign it directly to cats[cats.count]")
+print("That don't work. It's arrayname.append")
+cats.append("Huck")
+for kitty in cats {
+    print("\t\(kitty)")
+}
+print("Now, I'm going to insert one just before the end. Needed to say arrayname.count-1 to make it second-to-last.")
+cats.insert("Boots", at: cats.count-1)
 for kitty in cats {
     print("\t\(kitty)")
 }
