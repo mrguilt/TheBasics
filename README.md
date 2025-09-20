@@ -4,6 +4,7 @@ Working through learning Swift, much as I had my attempt at Rust. This is starti
 
 * **2025-09-20**
     * Did some variable assignment and printing
+        * Variable names can be Emoji, which just seems wrong. Also: it has to be pure Emoji. The tricks of setting gender, skin tone, coat color, etc. (which kinda combines two emoji) doesn't work. 
     * Played with Arrays. The index of the first element is 0
         * It works in an object-oriented way. So, `arrayname.count`, `arrayname.append`, etc.
     

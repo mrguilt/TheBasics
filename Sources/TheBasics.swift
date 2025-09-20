@@ -20,6 +20,11 @@ let biys="""
     Make a little birdhouse in your soul
     """
 print(biys)
+
+//var 🚴‍♀️🚴‍♀️="dogcow"
+//var 🚴‍♀️🚴‍♀️ = "Emonda"
+var 🐈="cat"
+print("A variable name can be an Emoji? The VT100-era hacker in my feels that's just wrong. \nBut 🐈=\"\(🐈)\"")
 print("----------")
 print("Lets name cats!")
 var cats=["Maggie","Eddy","Beso","Luna","Nami"]
