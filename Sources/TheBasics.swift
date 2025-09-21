@@ -21,10 +21,10 @@ let biys="""
     """
 print(biys)
 
-//var 🚴‍♀️🚴‍♀️="dogcow"
-//var 🚴‍♀️🚴‍♀️ = "Emonda"
+var 🚴="Emonda"
 var 🐈="cat"
-print("A variable name can be an Emoji? The VT100-era hacker in my feels that's just wrong. \nBut 🐈=\"\(🐈)\"")
+print("A variable name can be an Emoji? The VT100-era hacker in me feels that's just wrong. \nBut 🐈=\"\(🐈)\"")
+print("...and 🚴 is \"\(🚴)\"")
 print("----------")
 print("Lets name cats!")
 var cats=["Maggie","Eddy","Beso","Luna","Nami"]
@@ -51,3 +51,16 @@ cats.insert("Boots", at: cats.count-1)
 for kitty in cats {
     print("\t\(kitty)")
 }
+
+print("---------")
+print("Some Operator Tinkering")
+print("Nil-Coalescing Operator")
+
+print("userDefinedColorName: nil")
+let defaultColorName = "red"
+var userDefinedColorName: String?   // defaults to nil
+print((userDefinedColorName ?? defaultColorName))
+print("userDefinedColorName: blue")
+userDefinedColorName="blue"
+print((userDefinedColorName ?? defaultColorName))
+
